@@ -62,7 +62,15 @@ public class TestData {
 			  break;
 		
 		  case 2:
-			  System.out.println("Update your data/n");
+			  System.out.println("Update your data");
+			  while(l)
+				  
+				  System.out.println("1. Roll No");
+				  System.out.println("2. Name   ");
+				  System.out.println("3. City   ");
+				  System.out.println("0. Exit   ");
+			      System.out.println("Enter the data that you want to delete:");
+			      int ch1 = Integer.parseInt(sc.nextLine());
 			  
 			  
 		  case 3:
@@ -73,9 +81,9 @@ public class TestData {
 			  System.out.println("3. City   ");
 			  System.out.println("0. Exit   ");
 		      System.out.println("Enter the data that you want to delete:");
-		      int ch1 = Integer.parseInt(sc.nextLine());
+		      int ch2 = Integer.parseInt(sc.nextLine());
 		      
-		      switch(ch1)
+		      switch(ch2)
 		      {
 		      case 1:
 		    	  
